@@ -1,3 +1,11 @@
+python-zipp (1.0.0-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: denial of service vulnerability
+    - debian/patches/CVE-2024-5569.patch: Sanitize malformed paths
+    - CVE-2024-5569
+
+ -- Shishir Subedi <shishir.subedi@canonical.com>  Sun, 21 Jul 2024 20:13:09 +0545
+
 python-zipp (1.0.0-1) unstable; urgency=medium
 
   * New upstream release.
